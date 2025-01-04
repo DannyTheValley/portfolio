@@ -8,6 +8,16 @@
   text-align: center;
 }
 
+
+.section:nth-child(odd) {
+  background-color: var(--accent1-color); /* Lys bakgrunn */
+}
+
+.section:nth-child(even) {
+  background-color: var(--background-color); /* Mørkere bakgrunn */
+}
+
+
 .imagecontainer {
   position: relative;
 }
@@ -23,8 +33,25 @@
   transform: translateX(-50%);
 }
 
+.card {
+  background-color: var(--accent2-color);
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 @media (max-width: 768px) {
   .circle {
     display: none;
   }
 }
+
