@@ -39,21 +39,21 @@ export default function HomePage() {
 
     <div className="row justify-content-center g-4">
     {/* Første kort */}
-    <div className="col-md-4">
+    <div className="col-lg-3 col-md-4 col-sm-6">
       <div className={`${styles.card} card text-center p-3`}>
         <h4 className="card-title">Full Stack Developer</h4>
       </div>
     </div>
 
     {/* Andre kort */}
-    <div className="col-md-4">
+    <div className="col-lg-3 col-md-4 col-sm-6">
       <div className={`${styles.card} card text-center p-3`}>
         <h4 className="card-title">Frontend Designer</h4>
       </div>
     </div>
 
     {/* Tredje kort */}
-    <div className="col-md-4">
+    <div className="col-lg-3 col-md-4 col-sm-6">
       <div className={`${styles.card} card text-center p-3`}>
         <h4 className="card-title">Samarbeid og problemløser</h4>
       </div>
